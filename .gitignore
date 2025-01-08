@@ -1,0 +1,56 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE-specific files
+.vscode/
+.vs/
+.idea/
+*.iml
+
+# Dependency directories
+packages/
+node_modules/
+
+# Configuration files
+appsettings*.json
+secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swpx
+*.swn
+
+# Generated files
+*.g.*
+*.generated.cs
+*.cache
+*.ilk
+*.meta
+*.pdb
+*.obj
+*.idb
+*.tlog
+*.lastbuildstate
+*.vspscc
+
+# Frontend files
+!wwwroot/
+wwwroot/**/*.map
+wwwroot/**/*.gz
